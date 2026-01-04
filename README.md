@@ -1,1 +1,2 @@
 # Solidity_VotingSystem
+This program is a basic Solidity smart contract designed to run a transparent vote between two candidates on the blockchain.We use two simple numbers (integers) called candidate1Votes and candidate2Votes. These start at zero and increase by one every time a valid vote is cast. To prevent someone from voting multiple times, the contract uses a Mapping. If you are marked as false, it lets you vote and then immediately flips your status to true. If you try to vote again, the contract sees you are already marked as true and stops the transaction.
